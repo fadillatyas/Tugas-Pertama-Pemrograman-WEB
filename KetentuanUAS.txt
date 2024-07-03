@@ -1,0 +1,10 @@
+Buat laporan projek Pemrograman Web :
+1. Link github terbaru
+2. Nama Anggota 
+3. Deskripsi website 
+4. Design
+5. Proses bisnis -> usecase diagram (nilai absen terakhir 
+
+UAS FULL PRESENTASI PROJEK
+- PPT sudah ready ketika ujian
+- laporan harus sudah dikumpulkan

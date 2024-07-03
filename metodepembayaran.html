@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-wallet Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .app-container {
+            width: 300px;
+            border: 2px solid #00bfff;
+            border-radius: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        .app-header {
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 10px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .app-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .wallet-option {
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .wallet-option img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 5px;
+        }
+        .wallet-option p {
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #00bfff;
+            border-top: 2px solid #00bfff;
+        }
+        .nav-bar img {
+            width: 30px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="app-header">
+            E-wallet
+        </div>
+        <div class="app-content">
+            <div class="wallet-option">
+                <img src="https://via.placeholder.com/50" alt="DANA">
+                <p>DANA</p>
+            </div>
+            <div class="wallet-option">
+                <img src="https://via.placeholder.com/50" alt="GoPay">
+                <p>GoPay</p>
+            </div>
+            <div class="wallet-option">
+                <img src="https://via.placeholder.com/50" alt="OVO">
+                <p>OVO</p>
+            </div>
+            <div class="wallet-option">
+                <img src="https://via.placeholder.com/50" alt="ShopeePay">
+                <p>ShopeePay</p>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <img src="https://via.placeholder.com/30" alt="Home">
+            <img src="https://via.placeholder.com/30" alt="Notification">
+            <img src="https://via.placeholder.com/30" alt="Cart">
+        </div>
+    </div>
+</body>
+</html>

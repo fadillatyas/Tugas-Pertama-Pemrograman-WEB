@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Toko</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .chat-container {
+            width: 375px;
+            height: 667px;
+            background-color: #fff;
+            margin: 50px auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .chat-header {
+            background-color: #2f80ed;
+            color: white;
+            padding: 15px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .chat-header img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .chat-body {
+            padding: 15px;
+            flex-grow: 1;
+            overflow-y: auto;
+        }
+        .chat-message {
+            background-color: #2f80ed;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            width: fit-content;
+        }
+        .chat-input {
+            display: flex;
+            padding: 15px;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+            background-color: #f9f9f9;
+        }
+        .chat-input input {
+            flex-grow: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+            margin-right: 10px;
+        }
+        .chat-input button {
+            background-color: #2f80ed;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .chat-footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #e0f2ff;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        .chat-footer img {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img src="profile-placeholder.png" alt="Profile">
+            <div>Nama Toko</div>
+        </div>
+        <div class="chat-body">
+            <div class="chat-message">Hallo Kak?</div>
+            <div class="chat-message">Selamat datang di toko kami</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Ketlikkan Pesan">
+            <button>&#x27A4;</button>
+        </div>
+        <div class="chat-footer">
+            <img src="home-icon.png" alt="Home">
+            <img src="notification-icon.png" alt="Notifications">
+            <img src="cart-icon.png" alt="Cart">
+            <img src="profile-icon.png" alt="Profile">
+        </div>
+    </div>
+</body>
+</html>

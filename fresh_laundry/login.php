@@ -92,7 +92,7 @@
 						<h1>Admin Laundry</h1>
 					</div>
 
-					<img src=" <?=url('_assets/img/orang.png')?>" alt="" class="box-img-orang">
+					<img src=" <?=url('_assets/img/oranglogin.png')?>" alt="" class="box-img-orang">
 					<img src=" <?=url('_assets/img/jeans.png')?>" alt="" class="box-img-jeans">
 					<img src=" <?=url('_assets/img/baju.png')?>" alt="" class="box-img-baju">
 					<img src=" <?=url('_assets/img/dress.png')?>" alt="" class="box-img-dress">
